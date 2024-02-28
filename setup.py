@@ -19,14 +19,6 @@ setup(
     url='https://github.com/glut23/webvtt-py',
     packages=find_packages('.', exclude=['tests']),
     include_package_data=True,
-    install_requires=[
-        'docopt'
-    ],
-    entry_points={
-        'console_scripts': [
-            'webvtt=webvtt.cli:main'
-        ]
-    },
     license='MIT',
     python_requires='>=3.4',
     classifiers=[
